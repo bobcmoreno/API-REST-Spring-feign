@@ -10,7 +10,7 @@ Para criar essa aplicação foram executadas as seguintes etapas:
 
 4 – Criação das classes (Modelos de dados para Usuários x Veículos).
 
-5 – Criação das interfaces que faram a ligação das nossas classes com o bando de dados
+5 – Criação das interfaces que farão a ligação das nossas classes com o bando de dados
 
 6 – Criação da classe de controle para execução dos processos da nossa aplicação
 
