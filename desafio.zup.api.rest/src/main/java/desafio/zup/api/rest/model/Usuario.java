@@ -36,11 +36,8 @@ public class Usuario  {
     @Column(nullable = false) 
     private LocalDate datanascimento;
 
-/*    @OneToMany(mappedBy = "usuario_id" , orphanRemoval = true , cascade = CascadeType.ALL)*/
     @OneToMany(mappedBy = "usuario_id", cascade = CascadeType.ALL) 
 	private List<Veiculo> veiculos;
-/*    private List<Veiculo> veiculos = new ArrayList<Veiculo>();   */    
-
     
     @Override
 	public int hashCode() {

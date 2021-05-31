@@ -16,7 +16,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Table(name = "tab_veiculos")
 
 public class Veiculo {
-	
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

@@ -8,14 +8,6 @@ public class RodizioHoje {
 	
 	public static boolean verificarodizio( int diaSemana)
 		{
-		
-			if (diaSemana == Calendar.DAY_OF_WEEK)
-				{
-					return true;
-				}
-			else
-				{
-					return false;
-				}
+		return diaSemana == Calendar.DAY_OF_WEEK;
 		}	
 }
