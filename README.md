@@ -22,7 +22,7 @@ Para criar essa aplicação foram executadas as seguintes etapas:
 - Foi implementada uma chamada de um serviço externos API FIPE para obter o valor do veículo, usando o Spring Cloud Feign.
 - No mapeamento das classes foi implementado relacionamento @OneToMany da tabela de Usuários com a tabela de veículos
 - Foram considerados atributos obrigatórios e únicos
-- Foram criados 3 enpoints:
+- Foram criados 3 Endpoints:
   - Listagem de Usários x Veiculos
   - Endopoint Usuários ( Inclusão, Consulta, Alteração e Exclusão com delete cascade ( exclui todos os veículos do usuário que está sendo excluído )
   - Endopoint Veículos ( Inclusão, Consulta, Alteração e Exclusão )
